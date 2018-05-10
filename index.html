@@ -229,6 +229,135 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/05/10/git入门/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王充">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="doki">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/05/10/git入门/" itemprop="url">git入门</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-05-10T16:17:44+08:00">
+                2018-05-10
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="git-init"><a href="#git-init" class="headerlink" title="git init"></a>git init</h1><h2 id="功能："><a href="#功能：" class="headerlink" title="功能："></a>功能：</h2><p>git仓库的初始化操作，此命令在当前目录下新建一个git仓库。</p>
+<h2 id="使用："><a href="#使用：" class="headerlink" title="使用："></a>使用：</h2><p>例子：进入一个空目录git-demo-0，执行<code>git init</code>命令，这时该目录下会出现一个隐藏子目录.git（用<code>ls -la</code>命令可以查看git-demo-0目录的变化），这是一个空仓库，但是该目录不是空的。</p>
+<p><img src="http://ww1.sinaimg.cn/large/abbc1cebly1fr6bt8m1uhj20mo07u0uk.jpg" alt="git init一下，创建一个空仓库.git"></p>
+<h1 id="git-add"><a href="#git-add" class="headerlink" title="git add"></a>git add</h1><h2 id="功能：-1"><a href="#功能：-1" class="headerlink" title="功能："></a>功能：</h2><p>将仓库中文件变动更新到暂存区</p>
+<h2 id="使用：-1"><a href="#使用：-1" class="headerlink" title="使用："></a>使用：</h2><p>例子：在git-demo-0目录下新建文件index.html，<code>git status -sb</code>一下（查看仓库的状态）会发现仓库中多了该文件，但是如果新建目录 <code>mkdir 1</code> 再<code>git status -sb</code>不会看到有目录更新。</p>
+<p><code>git add</code>一下，再<code>git status -sb</code>一下查看仓库状态，会发现html文件前面由？？变成了A，即表示更新成功。</p>
+<p><img src="http://ww1.sinaimg.cn/large/abbc1cebly1fr6ctz4k5nj20l70jr10s.jpg" alt=""></p>
+<h1 id="git-commit-v"><a href="#git-commit-v" class="headerlink" title="git commit -v"></a>git commit -v</h1><h2 id="功能：-2"><a href="#功能：-2" class="headerlink" title="功能："></a>功能：</h2><p>提交仓库变动</p>
+<h2 id="使用：-2"><a href="#使用：-2" class="headerlink" title="使用："></a>使用：</h2><p>进入vim的编辑器界面，具体显示本次提交进行了那些改变。</p>
+<p><img src="http://ww1.sinaimg.cn/large/abbc1cebly1fr6dsbfd2xj20sw0nuk5p.jpg" alt=""></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/05/06/一些常用命令行使用/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -650,7 +779,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-count">4</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
