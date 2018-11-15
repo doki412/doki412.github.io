@@ -229,6 +229,137 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/11/16/CSS布局之水平居中/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="王充">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="doki">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/11/16/CSS布局之水平居中/" itemprop="url">CSS布局之水平居中</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-11-16T07:39:49+08:00">
+                2018-11-16
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>CSS中居中方式多种多样，我们需要根据情况选择合适的方式与技巧，本文介绍了一些常用的居中方式。</p>
+<h1 id="水平居中"><a href="#水平居中" class="headerlink" title="水平居中"></a>水平居中</h1><h2 id="inline或者inline-block元素"><a href="#inline或者inline-block元素" class="headerlink" title="inline或者inline-block元素"></a>inline或者inline-block元素</h2><p>这种就比较简单了，直接使用<code>text-align: center;</code>即可。<br><img src="http://ww1.sinaimg.cn/large/abbc1cebgy1fx9jlobra9j20mq054dft.jpg" alt=""><br><img src="http://ww1.sinaimg.cn/large/abbc1cebgy1fx9jmx9uh3j20be03k0sm.jpg" alt=""></p>
+<h2 id="一个block元素"><a href="#一个block元素" class="headerlink" title="一个block元素"></a>一个block元素</h2><p>给<code>margin-left</code>和<code>margin-right</code>一个<code>auto</code>值（<strong>但这个块必须得有<code>width</code></strong>）<br><img src="http://ww1.sinaimg.cn/large/abbc1cebgy1fx9jpth2vyj20mt055glk.jpg" alt=""><br><img src="http://ww1.sinaimg.cn/large/abbc1cebgy1fx9jrd1r86j20mo05k0sr.jpg" alt=""><br>要注意的是<code>float</code>属性<b>没有center这个值</b>，所以你不能把一个元素浮动到center</p>
+<h2 id="多个block元素"><a href="#多个block元素" class="headerlink" title="多个block元素"></a>多个block元素</h2><p>可以使用<code>inline-block</code>或者flex布局： <br></p>
+<ol>
+<li><p><code>inline-block</code> <br><br>给父元素<code>text-align: center;</code>给子元素<code>display： inline-block</code></p>
+</li>
+<li><p>flexbox布局 <br><br>父元素这样设置：</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.flex-center</span>&#123;</span><br><span class="line">  <span class="attribute">display</span>: flex;</span><br><span class="line">  <span class="attribute">justify-content</span>: center;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>子元素得设置<code>max-width</code><br><br><br><br>以上两种方法居中对比：<img src="http://ww1.sinaimg.cn/large/abbc1cebgy1fx9kfu1rrmj20co0fnt9e.jpg" alt=""></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/11/12/：nth-child()伪类/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1238,7 +1369,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">7</span>
+                  <span class="site-state-item-count">8</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
